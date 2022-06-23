@@ -1,9 +1,5 @@
 from flask import render_template
 from app import app, db
-import logging
-from logging.handlers import SMTPHandler
-import os
-from logging.handlers import RotatingFileHandler
 
 
 @app.errorhandler(404)
