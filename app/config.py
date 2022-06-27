@@ -17,7 +17,7 @@ class Config(object):
     ADMINS = ['your-email@example.com']
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     POSTS_PER_PAGE = 25
-    ELASTICSEARCH_URL = 'https://elastic:_C5-iLWGHpeuIXwR3pxA@localhost:9200'
+    ELASTICSEARCH_URL = 'https://elastic:VrdA103FPp3rdjmT0BUH@elasticsearch:9200'
 
 
 
